@@ -1,4 +1,4 @@
-# register-page.gihub.io
+# register-page.github.io
 
 Register App which shows additional content after registering/logging in.
 
