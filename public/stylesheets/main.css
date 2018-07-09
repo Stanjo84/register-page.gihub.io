@@ -1,0 +1,20 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 250px;
+}
+
+
+.rounded {
+    border: 0 solid black; 
+    border-radius: 5px;
+}
+
+.image {
+    padding-top: 164px;
+    width: auto !important;
+   
+}
+
+
+

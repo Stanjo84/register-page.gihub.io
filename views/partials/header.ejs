@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Photo Blog</title>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/semantic.min.css">
+         <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
+         <link href="https://fonts.googleapis.com/css?family=Oswald:400,500" rel="stylesheet"> 
+    </head>
+    <body>
+          <div class="ui inverted">
+              <div class="ui black four item inverted menu">
+                  <a href="/" class="active item">Home</a>
+                  <% if(!currentUser){ %>
+                  <a href="/register" class="active item">Register</a>
+                  <a href="/login" class="active item">Log-In</a>
+                  <% } else { %>
+                  <a class="active item">Logged in as: <%= currentUser.username %></a>
+                 <a href="/logout" class="active item">Log-Out</a>
+                  <% } %>
+              </div>
+          </div>

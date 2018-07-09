@@ -1,0 +1,28 @@
+<% include partials/header %>
+<div class="ui main container center aligned">
+
+    <div class="ui two column centered grid">
+        <div class="ui raised very padded text container teal inverted segment">
+            <div class="row">
+                <h1>Login</h1>
+                </br>
+                <form action="/login" method="POST">
+                    <div class="ui left icon input">
+                        <input type="text" name="username" placeholder="username">
+                        <i class="user icon"></i>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="ui left icon input">
+                            <input type="password" name="password" placeholder="password">
+                            <i class="lock icon"></i>
+                    </div>
+                    <br>
+                    <br>
+                    <button class="big blue ui button">Log-in</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<% include partials/footer %>
