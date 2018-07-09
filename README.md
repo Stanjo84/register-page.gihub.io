@@ -1,4 +1,4 @@
-# register-page.github.io
+# register-page.github.io (read-only mode)
 
 Register App which shows additional content after registering/logging in.
 
