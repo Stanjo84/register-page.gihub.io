@@ -2,7 +2,8 @@
 
 Register App which shows additional content after registering/logging in.
 
-Built with node.js using: 
+Built with <strong>node.js</strong> using:
+
 expressjs.com                          
 passportjs.org                          
 mongodb.com                          
